@@ -7,6 +7,8 @@ const PasswordErrorMessage = () => {
    <p className="FieldError">Password should have at least 8 characters</p> 
  ); 
 }; 
+
+
  
 function App() { 
  const [firstName, setFirstName] = useState(""); 
@@ -79,7 +81,7 @@ function App() {
              value={email} 
              onChange={(e) => { 
                setEmail(e.target.value); 
-             }} 
+             }            } 
              placeholder="Email address" 
            /> 
          </div> 
